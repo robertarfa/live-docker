@@ -1,0 +1,13 @@
+services:
+  django:
+    build: . #sabe que tem que pegar do Dockerfile
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/app
+
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_DB=django
+      - POSTGRES_PASSWORD=root
