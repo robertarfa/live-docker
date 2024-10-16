@@ -48,5 +48,5 @@ CMD ["tail", "-f", "/dev/null"]
 #lista da aplicação
 #\l
 
-#biblioteca para 
+#biblioteca para comunicação entre frontend e o banco de dados
 #pipenv install psycopg2-binary

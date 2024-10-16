@@ -8,6 +8,8 @@ services:
 
   postgres:
     image: postgres
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data #volume serve para backup dos dados
     environment:
       - POSTGRES_DB=django
       - POSTGRES_PASSWORD=root
