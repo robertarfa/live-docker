@@ -59,6 +59,9 @@ mnt_data
 logs
 *.swp
 _*
+.history/
+.venv/
+db.sqlite3
 
 # OS X
 .DS_Store
