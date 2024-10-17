@@ -62,6 +62,7 @@ _*
 .history/
 .venv/
 db.sqlite3
+media/
 
 # OS X
 .DS_Store
