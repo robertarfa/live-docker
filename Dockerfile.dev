@@ -50,3 +50,12 @@ CMD ["tail", "-f", "/dev/null"]
 
 #biblioteca para comunicação entre frontend e o banco de dados
 #pipenv install psycopg2-binary
+
+#docker-compose -f docker-compose.yaml up
+#sempre rodar o pipenv shell depois de entrar na imagem
+
+#username: admin@user.com
+#Email address: admin@user.com
+
+#entrar no container do pgadmin
+#docker exec -it b2f sh
